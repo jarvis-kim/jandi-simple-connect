@@ -1,0 +1,13 @@
+[package]
+name = "jsc"
+version = "0.1.0"
+authors = ["jarvis.kim <korean4788@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "~2.33.0"
+ansi_term = "~0.12.1"
+ureq = { version = "~1.0.0", features = ["json", "charset"] }
+serde = { vresion = "~1.0.106", features = ["derive"] }
